@@ -6,6 +6,7 @@ RUN apt-get update \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
+WORKDIR /app
 RUN git clone https://github.com/mnxzyw/selenium_demo.git
 WORKDIR /app/selenium_demo
 RUN pip install -r requirements.txt
