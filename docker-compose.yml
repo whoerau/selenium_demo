@@ -10,7 +10,7 @@ services:
       - 4444:4444
 
   gateway-reboot:
-    image: mnxzyw/selenium_demo
+    image: mnxzyw/selenium-demo
     container_name: gateway-reboot
     depends_on:
       - selenium
