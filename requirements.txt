@@ -1,0 +1,15 @@
+attrs==19.3.0
+click==6.7
+importlib-metadata==0.23
+more-itertools==7.2.0
+packaging==19.2
+page==1.0.16
+pluggy==0.13.1
+py==1.8.0
+pyparsing==2.4.5
+pytest==5.3.1
+selenium==3.141.0
+six==1.13.0
+urllib3==1.25.7
+wcwidth==0.1.7
+zipp==0.6.0
