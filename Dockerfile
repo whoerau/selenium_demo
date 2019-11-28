@@ -16,4 +16,4 @@ RUN git clone https://github.com/mnxzyw/selenium_demo.git
 WORKDIR /app/selenium_demo
 RUN pip install -r requirements.txt
 
-ENTRYPOINT ["python3", "-m", "app"]
+ENTRYPOINT dockerize -wait http://selenium:4444  python3 -m app
