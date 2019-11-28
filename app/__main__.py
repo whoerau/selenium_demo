@@ -1,4 +1,5 @@
 import click
+import time
 from .seleniumcli import *
 
 
@@ -23,6 +24,7 @@ def main(
     t = GatewayReboot()
     t.setup_method(gateway_password, standalone_chrome)
     t.reboot()
+    time.sleep(3)
     t.teardown_method()
 
 
