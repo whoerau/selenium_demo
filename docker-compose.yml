@@ -11,7 +11,7 @@ services:
       - 4444:4444
 
   gateway-reboot:
-    image: mnxzyw/selenium-demo
+    image: selenium-demo
     container_name: gateway-reboot
     entrypoint: dockerize -wait http://selenium:4444 python3 -m app
     depends_on:
